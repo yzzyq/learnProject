@@ -1,0 +1,80 @@
+排序的结果: [4, 422, 408, 43, 154, 40, 334, 60, 37, 160, 317, 311, 434, 118, 275, 181, 446, 49, 231, 175, 442, 104, 375, 3, 165, 0, 238, 90, 56, 456, 210, 364, 373,
+63, 333, 339, 431, 429, 82, 151, 123, 142, 370, 172, 331, 45, 102, 161, 5, 41, 103, 315, 352, 381, 241, 374, 69, 348, 266, 75, 457, 112, 70, 397, 1, 394, 376, 170, 91, 366, 438, 451, 191, 312, 445, 336, 168, 18, 38, 50, 414, 100, 292, 386, 230, 173, 240, 461, 452, 265, 418, 34, 300, 416, 332, 338, 287, 30, 458, 464, 214, 387, 335, 239, 294, 88, 217, 437, 283, 330, 26, 36, 130, 368, 28, 229, 146, 31, 206, 2, 29, 148, 129, 235, 453, 116, 251, 340, 337, 401, 32, 236, 320, 180, 65, 396, 321, 391, 419, 94, 167, 107, 269, 149, 109]
+threshold:0.05, recall:0.08235294117647059, precise:1.0, number:7, true_num:7
+threshold:0.1, recall:0.16470588235294117, precise:1.0, number:14, true_num:14
+threshold:0.15, recall:0.24705882352941178, precise:1.0, number:21, true_num:21
+threshold:0.2, recall:0.32941176470588235, precise:0.9655172413793104, number:29, true_num:28
+threshold:0.25, recall:0.38823529411764707, precise:0.9166666666666666, number:36, true_num:33
+threshold:0.3, recall:0.4470588235294118, precise:0.8837209302325582, number:43, true_num:38
+threshold:0.35, recall:0.5294117647058824, precise:0.9, number:50, true_num:45
+threshold:0.4, recall:0.6235294117647059, precise:0.9137931034482759, number:58, true_num:53
+threshold:0.45, recall:0.7058823529411765, precise:0.9230769230769231, number:65, true_num:60
+threshold:0.5, recall:0.788235294117647, precise:0.9305555555555556, number:72, true_num:67
+threshold:0.55, recall:0.8470588235294118, precise:0.9113924050632911, number:79, true_num:72
+threshold:0.6, recall:0.9294117647058824, precise:0.9080459770114943, number:87, true_num:79
+threshold:0.65, recall:1.0, precise:0.9042553191489362, number:94, true_num:85
+threshold:0.7, recall:1.0, precise:0.8415841584158416, number:101, true_num:85
+threshold:0.75, recall:1.0, precise:0.7870370370370371, number:108, true_num:85
+threshold:0.8, recall:1.0, precise:0.7327586206896551, number:116, true_num:85
+threshold:0.85, recall:1.0, precise:0.6910569105691057, number:123, true_num:85
+threshold:0.9, recall:1.0, precise:0.6538461538461539, number:130, true_num:85
+threshold:0.95, recall:1.0, precise:0.6204379562043796, number:137, true_num:85
+threshold:1.0, recall:1.0, precise:0.5862068965517241, number:145, true_num:85
+
+
+
+
+
+
+
+排序的结果: [1051, 1629, 743, 1798, 198, 38, 757, 1144, 61, 1406, 679, 156, 1601, 122, 1670, 680, 28, 1193, 1857, 1147, 46, 1309, 1464, 286, 1547, 190, 1139, 505, 463, 142, 378, 1685, 682, 1691, 1040, 13, 1420, 1230, 1023, 445, 391, 1138, 1129, 1035, 831, 1768, 1008, 1417, 1879, 1347, 1756, 1083, 1334, 644, 107, 1432, 174, 12, 1189, 201, 1612, 778, 687, 1700, 436, 202, 525, 1890, 66, 143, 1351, 1136, 113, 530, 1322, 407, 90, 1801, 1771, 704, 253, 493, 1397, 1175, 1258, 1174, 39, 1133, 18, 1177, 1550, 1832, 1755, 231, 1191, 1155, 1200, 102, 1061, 1157, 124, 422, 506, 1176, 483, 468, 57, 918, 1789, 1301, 1018, 969, 1272, 135, 1089, 121, 32, 842, 182, 1275, 566, 1142, 1430, 6, 416, 157, 1766, 1, 1067, 1652, 223, 453, 1137, 336, 45, 1698, 1181, 1160, 1936, 1902, 367, 1380, 907, 120, 162, 47, 999, 1754, 631, 655, 1172, 492, 1086, 1831, 44, 1163, 1227, 448, 1082, 26, 1435, 641, 252, 1725, 1161, 49, 494, 415, 153, 1135, 485, 74, 474, 119, 99, 806, 614, 50, 1246, 484, 387, 1413, 1630, 691]
+threshold:0.05, recall:0.09, precise:1.0, number:9, true_num:9
+threshold:0.1, recall:0.18, precise:1.0, number:18, true_num:18
+threshold:0.15, recall:0.27, precise:1.0, number:27, true_num:27
+threshold:0.2, recall:0.36, precise:1.0, number:36, true_num:36
+threshold:0.25, recall:0.46, precise:1.0, number:46, true_num:46
+threshold:0.3, recall:0.55, precise:1.0, number:55, true_num:55
+threshold:0.35, recall:0.64, precise:1.0, number:64, true_num:64
+threshold:0.4, recall:0.73, precise:1.0, number:73, true_num:73
+threshold:0.45, recall:0.82, precise:1.0, number:82, true_num:82
+threshold:0.5, recall:0.92, precise:1.0, number:92, true_num:92
+threshold:0.55, recall:1.0, precise:0.9900990099009901, number:101, true_num:100
+threshold:0.6, recall:1.0, precise:0.9090909090909091, number:110, true_num:100
+threshold:0.65, recall:1.0, precise:0.8403361344537815, number:119, true_num:100
+threshold:0.7, recall:1.0, precise:0.78125, number:128, true_num:100
+threshold:0.75, recall:1.0, precise:0.7246376811594203, number:138, true_num:100
+threshold:0.8, recall:1.0, precise:0.6802721088435374, number:147, true_num:100
+threshold:0.85, recall:1.0, precise:0.6410256410256411, number:156, true_num:100
+threshold:0.9, recall:1.0, precise:0.6060606060606061, number:165, true_num:100
+threshold:0.95, recall:1.0, precise:0.5747126436781609, number:174, true_num:100
+threshold:1.0, recall:1.0, precise:0.5434782608695652, number:184, true_num:100
+
+
+
+
+
+
+排序的结果: [639, 875, 216, 113, 364, 1026]
+threshold:0.05, recall:0, precise:0, number:0, true_num:0
+threshold:0.1, recall:0, precise:0, number:0, true_num:0
+threshold:0.15, recall:0, precise:0, number:0, true_num:0
+threshold:0.2, recall:0.3333333333333333, precise:1.0, number:1, true_num:1
+threshold:0.25, recall:0.3333333333333333, precise:1.0, number:1, true_num:1
+threshold:0.3, recall:0.3333333333333333, precise:1.0, number:1, true_num:1
+threshold:0.35, recall:0.6666666666666666, precise:1.0, number:2, true_num:2
+threshold:0.4, recall:0.6666666666666666, precise:1.0, number:2, true_num:2
+threshold:0.45, recall:0.6666666666666666, precise:1.0, number:2, true_num:2
+threshold:0.5, recall:1.0, precise:1.0, number:3, true_num:3
+threshold:0.55, recall:1.0, precise:1.0, number:3, true_num:3
+threshold:0.6, recall:1.0, precise:1.0, number:3, true_num:3
+threshold:0.65, recall:1.0, precise:1.0, number:3, true_num:3
+threshold:0.7, recall:1.0, precise:0.75, number:4, true_num:3
+threshold:0.75, recall:1.0, precise:0.75, number:4, true_num:3
+threshold:0.8, recall:1.0, precise:0.75, number:4, true_num:3
+threshold:0.85, recall:1.0, precise:0.6, number:5, true_num:3
+threshold:0.9, recall:1.0, precise:0.6, number:5, true_num:3
+threshold:0.95, recall:1.0, precise:0.6, number:5, true_num:3
+threshold:1.0, recall:1.0, precise:0.5, number:6, true_num:3
+
+
+

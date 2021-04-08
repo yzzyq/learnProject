@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.seckill.dao.SuccessSeckillMapper">
+    <insert id="insertSuccessSeckill">
+        insert ignore into
+          Success_seckill(seckill_id,seckill_phone)
+        values
+          (#{seckill_id},#{seckill_phone});
+    </insert>
+    
+    <select id="querySuccessSeckillById" resultType="Success_seckill">
+        select
+           su.seckill_id suseckill_id,
+           su.seckill_phone suseckill_phone,
+           su.seckill_state suseckill_state,
+           su.seckill_createTime suseckill_createTime,
+           sc.seckill_id scseckill_id,
+           sc.seckill_name scseckill_name,
+           sc.seckill_num scseckill_num,
+           sc.seckill_startTime scseckill_startTime,
+           sc.seckill_endTime scseckill_endTime,
+           sc.seckill_createTime scseckill_createTime
+        from Success_seckill su
+        inner join Seckill sc on su.seckill_id = sc.seckill_id
+        where su.seckill_id = #{seckill_id} and su.seckill_phone = #{seckill_phone};
+    </select>
+    
+    <!--<resultMap id="SuccessAndSeckill" type="Success_seckill">
+        <result property="seckill_id" column="suseckill_id" />
+        <result property="seckill_phone" column="suseckill_phone" />
+        <result property="seckill_state" column="suseckill_state" />
+        <result property="seckill_createTime" column="suseckill_createTime"/>
+        <association property="seckill" javaType="Seckill" >
+            <result property="seckill_id" column="scseckill_id" />
+            <result property="seckill_name" column="scseckill_name" />
+            <result property="seckill_num" column="scseckill_num" />
+            <result property="seckill_startTime" column="scseckill_startTime" />
+            <result property="seckill_endTime" column="scseckill_endTime" />
+            <result property="seckill_createTime" column="scseckill_createTime" />
+        </association>
+    </resultMap>-->
+</mapper>
